@@ -1,0 +1,21 @@
+h1{
+    color:purple;
+}
+
+/* h2 {
+    color:yellow
+} */
+
+section>h2 {
+    color: yellow;
+}
+
+article>h2 {
+    color: red;
+}
+
+/* Changes because its more specific*/
+section>article>h2{
+    color:orange
+}
+                                       

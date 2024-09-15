@@ -4,7 +4,7 @@ Class Work:
 
 1. Please complete the following exercises if you haven't already:
 
-- backgroundcolors.html
+- backgroundcolors.html ✅
 
 - badcalculator.html
 

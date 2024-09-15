@@ -1,0 +1,71 @@
+
+.main {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* First box across the top */
+.box1 {
+    height: 15vh;
+    width: 100vw;
+}
+/* Boxes of boxes for second row */
+.box2 {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    display: flex;
+    height: 30vh;
+}
+/* boxes in second row */
+.box22 {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 33.33vw;
+}
+.box33 {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 33.33vw;
+}
+.box44 {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 33.33vw;
+}
+/* boxes of boxes for third row */
+.box3{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    display: flex;
+    height: 40vh;
+}
+/* boxes in third row */
+.box55{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 50vw;
+}
+
+.box66{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 50vw;
+}
+/* last box at the bottom */
+.box4{
+    height: 15vh;
+    width: 100vw;
+}

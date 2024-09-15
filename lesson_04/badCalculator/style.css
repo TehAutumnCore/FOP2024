@@ -1,31 +1,43 @@
-* {
-    box-sizing: border-box;
-}
-
-h1,
-h2 {
+h1 {
     text-align: center;
 
 }
 
-img {
-    display: block;
-    height: 300px;
+/* Outer box */
+.main {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
+    height: 100px;
+    width: 300px;
 }
 
-ul {
-    width: 100px;
-    height: 200px;
-    border: 3px solid black;
-    margin: 0 auto;
-    list-style: none;
-    padding: 0;
+.boxdisplay {
+    background-color: white;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width:250px
 }
 
-li {
-    text-align: center;
-    width: 94px;
-    height: 49px;
-    border: 1px solid black;
+table {
+    display: flex;
+    justify-content: center;
 }
+
+/*box of first row */
+
+/* First row */
+
+/* box of second row */
+
+/* second row */
+
+/* box of third row */
+
+/* third row */
+
+/* box of fourth row */
+
+/* fourth row */

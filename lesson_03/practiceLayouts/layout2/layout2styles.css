@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* first row box */
+.box1 {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 100vw;
+    height: 20vh;
+}
+/* second row box */
+.box2 {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 100vw;
+    height: 30vh;
+}
+
+/* third row*/
+.box3{
+    display: flex;
+}
+
+/* boxes in third row */
+.box22{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 50vw;
+    height: 30vh;
+}
+
+.box33{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 50vw;
+    height: 30vh;
+}
+/* fourth row */
+.box4 {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 100vw;
+    height: 20vh;
+}

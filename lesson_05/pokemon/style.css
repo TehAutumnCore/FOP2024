@@ -4,6 +4,13 @@
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: 0;
     height: 300px;
+    width: 700px;
+}
+
+div {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1100/format:jpeg/1*kZW4nlRSLAMq0EA2EoKStg.png");
+    width: 50vw;
+    height: 60vh;
 }

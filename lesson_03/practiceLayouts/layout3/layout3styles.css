@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* first box; first row box */
+.box1{
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    height: 20vh;
+    width: 100vw;
+}
+/* box of second row of boxes */
+.box2{
+    display: flex;
+}
+/* boxes in second row of boxes */
+.box22{
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    width:18vw;
+    height:60vh;
+}
+.box33{
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    width:40vw;
+}
+.box44{
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    width:18vw;
+}
+.box55{
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    width:30vw;
+}
+
+/* last box; last row box */
+.box3{
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    height: 20vh;
+    width: 100vw;
+}

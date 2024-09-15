@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: black;
+    width: 100vw;
+    height: 6vh;
+    align-items: center;
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+}
+
+.BBC_icon{
+    height:100%;;
+}
+
+.welcomebbc {
+    float: left;
+}
+
+.date{
+    float:right;
+}
+
+.main{
+    border-style: solid;
+    display:flex;
+}
+
+.box1 {
+    background-image:;
+}

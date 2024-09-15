@@ -4,11 +4,11 @@ Class Work:
 
 1. Please complete the following exercises if you haven't already:
 
-- dogphoto.html
+- dogphoto.html ✅
 
-- cocktails.html (including the moscow mule challenge)
+- cocktails.html (including the moscow mule challenge) ✅
 
-- pokemon.html
+- pokemon.html ✅
 
 - botscore.html
 

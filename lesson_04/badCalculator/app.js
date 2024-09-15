@@ -1,26 +1,19 @@
+let numbers=[]
 let total = 0
 
-document.querySelector('#pumpkin').addEventListener('click', makeZero)
-document.querySelector('#dominosPizza').addEventListener('click', add3)
-document.querySelector('#zebra').addEventListener('click', add9)
-document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
+let display = document.querySelector(".boxdisplay")
 
-function makeZero() {
-  total = 0
-  document.querySelector('#placeToPutResult').innerText = total
+document.querySelector('.button1').addEventListener('click', add1)
+
+function add1() {
+  total = total + 1
+  document.querySelector('.box1').innerText = total
 }
 
-function add3() {
-  total = total + 3
-  document.querySelector('#placeToPutResult').innerText = total
-}
-
-function add9() {
-  total = total + 9
-  document.querySelector('#placeToPutResult').innerHTML = total
-}
-
-function sub2() {
-  total = total - 2
-  document.querySelector('#placeToPutResult').innerHTML = total
-}
+/**
+ * When #button1.clicked -> will push the number to an empty arraw -> number1=[]. 
+ * num1 = Number(numbers1.join("")) will convert each press from string to number
+ * after #buttonplus.clicked -> will push the next set of numbers to an empty array->numbers2=[]
+ * num2 = Number(number2.join(""))
+ * sum = num1 + num2
+ */

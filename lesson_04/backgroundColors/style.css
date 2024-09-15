@@ -1,0 +1,68 @@
+.main{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+}
+
+.blue{
+    color: white;
+    background-color: blue;
+    border-style: solid;
+    width: 80px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    color:white;
+    background-color: green;
+    width: 80px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    color:white;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow{
+    color:white;
+    background-color: yellow;
+    width: 80px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.orange{
+    color:white;
+    background-color: orange;
+    width: 80px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random{
+    color:white;
+    background-color:purple;
+    width: 80px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+

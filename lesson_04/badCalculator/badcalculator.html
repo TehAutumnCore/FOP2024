@@ -4,25 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="widtr=device-widtr, initial-scale=1.0">
     <!-- external CSS and JS links -->
     <link rel="stylesheet" href="style.css">
     <script async type="text/javascript" src="app.js"></script>
-    <title>Document</title>
+    <title>Better Calculator</title>
 </head>
 
 <!-- 
-Assignment: Improve the functionality of my bad calculator to include basic arithmetic for all numbers 0-9, if you have extra time work on the CSS file so that it matches the calculator.png picture found within this folder -->
+Assignment: Improve tre functionality of my bad calculator to include basic aritrmetic for all numbers 0-9, if you have extda time work on tre CSS file so trat it matches tre calculator.png picture found witrin tris folder -->
 
+<h1>Better Calculator</h1>
 <body>
-    <h1>Bad Calculator</h1>
-    <ul>
-        <li id="pumpkin">0</li>
-        <li id="dominosPizza">+3</li>
-        <li id="zebra">+9</li>
-        <li id="cantThinkOfAnything">-2</li>
-    </ul>
-    <h2>Result: <span id="placeToPutResult"></span></h2>
+    <table>
+        <div class="main">
+            <div class = "boxdisplay"; style="background-color: white;">0</div><br><br><br><br>
+            <tr><div class="box22"></div></tr>
+                <td><div class="box1"><button id="button1">1</button></div></td>
+                <td><div class="box2"><button id="button2">2</button></div></td>
+                <td><div class="box3"><button id="button3">3</button></div></td>
+                <td><div class="boxplus"><button id="buttonplus">+</button></div></td>
+            <tr><div class="box33"></tr>
+                <td><div class="box4"><button id="button4">4</button></div></td>
+                <td><div class="box5"><button id="button5">5</button></div></td>
+                <td><div class="box6"><button id="button6">6</button></div></td>
+                <td><div class="boxminus"><button id="buttonminus">-</button></div></td>
+            </div>
+            <tr><div class="box44"></tr>
+                <td>><div class="box7"><button id="button7">7</button></div></td>
+                <td><div class="box8"><button id="button8">8</button></div></td>
+                <td><div class="box9"><button id="button9">9</button></div></td>
+                <td><div lass="boxmulti"><button id="buttonmultiply">*</button></div></td>
+            </div>
+            <tr><div class="box55"></tr>
+                <td><div class="boxreset"><button id="buttonreset">C</button></div></td>
+                <td><div class="box0"><button id="button0">0</button></div></td>
+                <td><div class="boxequal"><button id="buttonequal">=</button></div></td>
+                <td><div class="boxdivide"><button id="buttondivide">/</button></div></td>
+            </div>
+        </div>
+    </table>
+    <h2>Numbers: <span class="numbersclicked"> </span></h2>
 </body>
 
 </html>

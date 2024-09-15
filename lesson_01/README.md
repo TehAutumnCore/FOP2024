@@ -2,15 +2,15 @@
 
 Class Work:
 
-1. Create a GitHub account if you haven't already: https://github.com/
+✅ 1. Create a GitHub account if you haven't already: https://github.com/
 
 2. Read: https://jwiegley.github.io/git-from-the-bottom-up/
 
-3. Complete the following Intro to GitHub course: https://learn.microsoft.com/en-us/training/modules/introduction-to-github/
+✅ 3. Complete the following Intro to GitHub course: https://learn.microsoft.com/en-us/training/modules/introduction-to-github/
 
-4. Practice creating remote repos on GitHub and pushing to them. You can always delete them later and this skill will be valuable when you get to your first SWE job.
+✅ 4. Practice creating remote repos on GitHub and pushing to them. You can always delete them later and this skill will be valuable when you get to your first SWE job.
 
-5. Build out your GitHub profile:
+✅ 5. Build out your GitHub profile:
 
 - Read: https://dev.to/supritha/how-to-have-an-awesome-github-profile-1969
 

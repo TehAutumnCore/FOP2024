@@ -4,11 +4,11 @@ Welcome to Foundations of Programming!
 
 Class Work:
 
-1. Short Class Intro
+✅ 1. Short Class Intro
 
-2. Installfest: https://github.com/codeplatoon-fullstack/installfest
+✅ 2. Installfest: https://github.com/codeplatoon-fullstack/installfest
 
-3. Learning How to Code
+✅ 3. Learning How to Code
 
 
 Extra Resources on Classes, Objects, Exceptions, and Unit Tests:
