@@ -34,3 +34,25 @@ if number_of_guesses == 1:
     print(f"The number was {guess}. You guessed it in 1 try!")
 else:
     print(f"You guessed correctly! The number was {guess}. You guessed it in {number_of_guesses} tries.")
+
+
+#
+
+
+# won = False
+# tries = 1
+
+# while won == False:
+#     playerGuess = int(input("Enter your guess: "))
+#     if playerGuess == correctNumber:
+#         if tries > 1:
+#             print(f"You guessed it in {tries}")
+#         else:
+#             print(f"You guessed it in 1 try")
+#         won = True
+#     elif playerGuess > correctNumber:
+#         tries +=1
+#         print("Too high, try again")
+#     elif playerGuess < correctNumber:
+#         tries +=1
+#         print("Too low, try again")

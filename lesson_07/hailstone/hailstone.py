@@ -41,6 +41,7 @@ hailstone(Positive_Integer)
 
 
 # Pseudocode
+
 # def hailstone(Positive_Integer):
 #     steps = 0
 #     Positive_Integer = 42
