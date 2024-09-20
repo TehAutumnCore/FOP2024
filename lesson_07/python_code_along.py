@@ -127,8 +127,100 @@
 #         continue
 #     print(num)
 
-animal_list = ["dog","cat","bird"]
+# animal_list = ["dog","cat","bird"]
+# dictionary_example - {}
+# different_data_types = ["string", 1, 3.14,animal_list, dictionary_example]
 
-for animal in animal_list:
-    for letter in animal:
-        print(letter)
+# for item in different_data_type
+
+# arr[start:stop:end]
+# number_list = [13.53.23.96,12]
+
+# print(number_list[1])
+# print(number_list[1:3])
+# print(number_list[0:9:1])
+# print(number_list[::2])
+# print(number_list[::-1])
+
+# string_example = 'dictionary'
+# print(string_example[1:5])
+# print(string_example[::1])
+# print(string_example[::-1])
+
+#in and not in
+
+# numbers = [1,2,3,4]
+# numbers = 'dictionary'
+# if 'i' in numbers:
+#     print("Its in here")
+# else:
+#     print("Its not in here")
+
+# animal = "anteater"
+
+# print(animal.find('k'))
+
+# print(len(animal))
+
+
+# odds = [7,5,9,1,13,11,3]
+# evens = [8,4,10,6,2]
+# print(max(odds))
+# print(min(odds))
+# print(sum(odds))
+
+# sorted(odds)
+# print(odds)
+
+# odds.sort()
+# print(odds)
+
+
+
+
+# nums = [1,2,3,4,5]
+# nums_doubled = []
+
+# for num in nums:
+    # nums_doubled.append(num*2)
+# print(nums_doubled)
+
+# double_nums = [2 * num for num in nums]
+# only_evens = [num for num in nums if num % 2 == 0]
+# print(double_nums)
+# print(nums*2)
+# print(only_evens)
+
+# dictionary
+# state_capitals = {
+#     "Washington" : "Olympia",
+#     "Oregon" : "Salem",
+#     "Idaho" : "Boise",
+#     "Montana": "Helena"
+# }
+
+
+# print(state_capitals["Washington"])
+# state_capitals['Texas'] = 'Austin'
+# print(state_capitals['Texas'])
+# del state_capitals['Montana']
+# print(state_capitals)
+
+# for key in state_capitals.keys():
+#     print(key)
+# print(state_capitals.keys())
+
+
+# for value in state_capitals.values():
+#     print(value)
+# print(state_capitals.values())
+
+
+# for key,values in state_capitals.items():
+#     print(key,values)
+
+# print(state_capitals.items())
+
+# word = 'dictionary'
+# for letter,index in enumerate(word):
+#     print(letter,index)

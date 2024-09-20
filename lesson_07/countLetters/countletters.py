@@ -14,19 +14,18 @@ def count_letters(string):
     dictionary = {}
     string = string.upper()
     for letter in string:
-        # print(letter)
-        if letter not in dictionary:
-            dictionary[letter]=1
+        if letter not in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+            continue
+        else:
             # print(letter)
-            # print(dictionary)
-        elif letter in dictionary:
-            dictionary[letter]+=1
+            if letter not in dictionary:
+                dictionary[letter]=1
+                # print(letter)
+                # print(dictionary)
+            else:
+                dictionary[letter]+=1
     print(dictionary)
-count_letters("AaBbCcDddEfGGg")
-
-
-
-
+count_letters("AaBbCcD ddEfGGg")
 
 # dictionary = {}
 # def count_letters(string):
