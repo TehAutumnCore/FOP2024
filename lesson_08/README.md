@@ -4,9 +4,9 @@ Class Work:
 
 1. Please complete the following exercises if you haven't already:
 
-- taxicab.py
+- taxicab.py ✅
 
-- stddev.py
+- stddev.py ✅
 
 - linesegment.py
 

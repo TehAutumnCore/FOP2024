@@ -1,8 +1,12 @@
 Remember that all data members should be **private**. An object can access it's own private data members directly. It can also access the private data members of other objects *of the same class* directly. But when accessing a private data member of an object of *another* class, it needs to call the appropriate get method. If that sounds complicated, just remember this: if a method is in the same class as a private data member, then it can access that data member directly, otherwise, it needs to use a get method (see the hints at the end).
 
-Write a class named **Point** that has two data members, **x_coord** and **y_coord**, representing the two coordinates of the point. It should have:
+Write a class named **Point** that has two data members, **x_coord** and **y_coord**, representing the two coordinates of the point. 
+
+It should have:
 * an init method that takes two arguments, an x-coordinate and y-coordinate (in that order), and uses them to initialize the two data members.
+
 * get methods for the two data members: **get_x_coord** and **get_y_coord**.
+
 * a method named **distance_to** that takes a Point object as an argument. It returns the distance between the Point object the method is called on (the one in front of the dot) and the Point object passed as the argument. For example, if point_1 and point_2 are both Point objects, then ```point_1.distanceTo(point_2)``` should return the distance between point_1 and point_2 (and ```point_2.distanceTo(point_1)``` should return the same distance). For this method, you'll calculate the distance using the following formula:
 
 distance_formula.png: "formula for distance between two points"
